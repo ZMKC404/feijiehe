@@ -1,0 +1,1536 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>深圳龙岗区肺结核免费治疗申请指南 | 2025年政策解读</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --accent: #f59e0b;
+            --neutral: #374151;
+            --base-100: #ffffff;
+            --base-200: #f8fafc;
+            --base-300: #e2e8f0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            overflow-x: hidden;
+        }
+        
+        .serif {
+            font-family: 'Noto Serif SC', serif;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(59, 130, 246, 0.8) 100%);
+        }
+        
+        .toc-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-right: 1px solid #e2e8f0;
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        .main-content {
+            margin-left: 280px;
+            min-height: 100vh;
+        }
+        
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #cbd5e1, transparent);
+            margin: 4rem 0;
+        }
+        
+        .citation-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-bottom: 1px dotted var(--primary);
+            transition: all 0.2s ease;
+        }
+        
+        .citation-link:hover {
+            background-color: rgba(37, 99, 235, 0.1);
+            border-bottom-style: solid;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border-left: 4px solid var(--primary);
+        }
+        
+        .process-step {
+            position: relative;
+            padding-left: 3rem;
+        }
+        
+        .process-step::before {
+            content: '';
+            position: absolute;
+            left: 0.75rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--primary), var(--accent));
+        }
+        
+        .process-step:last-child::before {
+            height: 2rem;
+        }
+        
+        .step-number {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 1024px) {
+            .toc-fixed {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+            
+            .toc-fixed.open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+
+            /* Responsive mermaid controls */
+            .mermaid-control-btn:not(.reset-zoom) {
+                display: none;
+            }
+            .mermaid-controls {
+                top: auto;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+        
+        .policy-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .policy-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .bento-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .bento-item {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .bento-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-title {
+                font-size: 2.5rem !important;
+                line-height: 1.2 !important;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.125rem !important;
+            }
+            
+            .px-8 {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            
+            .bento-item > div {
+                word-wrap: break-word;
+            }
+        }
+        
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 280px;
+            right: 0;
+            height: 4px;
+            background: #e2e8f0;
+            z-index: 999;
+        }
+        
+        .scroll-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            transition: width 0.1s ease;
+        }
+        
+        .mermaid-container {
+            display: flex;
+            justify-content: center;
+            min-height: 300px;
+            max-height: 800px;
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mermaid-container .mermaid {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            cursor: grab;
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            touch-action: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mermaid-container .mermaid svg {
+            max-width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mermaid-container .mermaid:active {
+            cursor: grabbing;
+        }
+
+        .mermaid-container.zoomed .mermaid {
+            height: 100%;
+            width: 100%;
+            cursor: grab;
+        }
+
+        .mermaid-controls {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .mermaid-control-btn {
+            background: #ffffff;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: #374151;
+            font-size: 14px;
+            min-width: 36px;
+            height: 36px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mermaid-control-btn:hover {
+            background: #f8fafc;
+            border-color: #3b82f6;
+            color: #3b82f6;
+            transform: translateY(-1px);
+        }
+
+        .mermaid-control-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Mermaid theme customization with improved contrast */
+        .mermaid .node rect,
+        .mermaid .node circle,
+        .mermaid .node ellipse,
+        .mermaid .node polygon {
+            fill: #ffffff !important;
+            stroke: #2563eb !important;
+            stroke-width: 2px !important;
+            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) !important;
+        }
+        
+        .mermaid .node .label {
+            color: #1f2937 !important;
+            font-weight: 600 !important;
+            font-size: 13px !important;
+            text-shadow: none !important;
+        }
+        
+        .mermaid .edgePath .path {
+            stroke: #64748b !important;
+            stroke-width: 2px !important;
+            filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1)) !important;
+        }
+        
+        .mermaid .edgeLabel {
+            background-color: rgba(255, 255, 255, 0.95) !important;
+            color: #374151 !important;
+            font-weight: 500 !important;
+            border: 1px solid #d1d5db !important;
+            border-radius: 6px !important;
+            padding: 4px 8px !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        /* Specific node type styling with high contrast */
+        .mermaid .node.start rect,
+        .mermaid .node.start circle {
+            fill: #dcfce7 !important;
+            stroke: #16a34a !important;
+            stroke-width: 3px !important;
+        }
+        
+        .mermaid .node.start .label {
+            color: #15803d !important;
+            font-weight: 700 !important;
+        }
+        
+        .mermaid .node.end rect,
+        .mermaid .node.end circle {
+            fill: #fef3c7 !important;
+            stroke: #d97706 !important;
+            stroke-width: 3px !important;
+        }
+        
+        .mermaid .node.end .label {
+            color: #92400e !important;
+            font-weight: 700 !important;
+        }
+    </style>
+  </head>
+
+  <body class="bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <!-- Table of Contents -->
+    <nav class="toc-fixed" id="tableOfContents">
+      <div class="mb-8">
+        <h3 class="text-lg font-bold text-slate-800 mb-4 serif">目录导航</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="#hero" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">概述与政策解读</a>
+          </li>
+          <li>
+            <a href="#policy" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">免费治疗政策</a>
+          </li>
+          <li>
+            <a href="#application" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">申请流程</a>
+          </li>
+          <li>
+            <a href="#family-screening" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">家人陪同筛查</a>
+          </li>
+          <li>
+            <a href="#recovery" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">康复治疗指导</a>
+          </li>
+          <li>
+            <a href="#emotional-support" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">心理支持</a>
+          </li>
+          <li>
+            <a href="#contacts" class="block py-2 px-3 rounded-lg hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors">联系信息</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mt-8 pt-4 border-t border-slate-200">
+        <p class="text-xs text-slate-500">最后更新：2025年</p>
+        <p class="text-xs text-slate-500 mt-1">适用于深圳龙岗区</p>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button class="lg:hidden fixed top-4 left-4 z-50 bg-white p-2 rounded-lg shadow-lg" onclick="toggleToc()">
+      <i class="fas fa-bars text-slate-700"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="hero" class="relative min-h-screen flex items-center">
+        <div class="absolute inset-0">
+          <img src="https://kimi-web-img.moonshot.cn/img/www.xzsdyyy.com/94e274d61250c77e6731cdcb801e38a1676c92f9.jpg" alt="肺结核医疗咨询场景" class="w-full h-full object-cover" size="wallpaper" aspect="wide" style="photo" query="肺结核医疗咨询" referrerpolicy="no-referrer" data-modified="1" data-score="11588.00"/>
+          <div class="hero-overlay absolute inset-0"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-8 py-16">
+          <div class="bento-grid items-center">
+            <div class="text-white">
+              <h1 class="text-5xl lg:text-6xl font-bold serif mb-6 leading-tight">
+                <span class="italic">深圳龙岗区</span>
+                <br/>
+                肺结核免费治疗
+                <br/>
+                <span class="text-amber-300">申请指南</span>
+              </h1>
+              <p class="text-xl lg:text-2xl mb-8 text-blue-100 font-light">
+                专业、可信、全面的政策解读与申请指导
+              </p>
+              <div class="flex items-center space-x-6 text-sm text-blue-200">
+                <span class="flex items-center">
+                  <i class="fas fa-calendar-alt mr-2"></i>
+                  2025年有效版本
+                </span>
+                <span class="flex items-center">
+                  <i class="fas fa-map-marker-alt mr-2"></i>
+                  深圳市龙岗区
+                </span>
+              </div>
+            </div>
+
+            <div class="bento-item">
+              <div class="text-center mb-6">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <i class="fas fa-heartbeat text-2xl text-blue-600"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-slate-800 serif">核心服务</h3>
+              </div>
+              <div class="space-y-3 text-sm text-slate-600">
+                <div class="flex items-center">
+                  <i class="fas fa-check text-green-500 mr-3"></i>
+                  免费诊断检查
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check text-green-500 mr-3"></i>
+                  免费抗结核药物
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check text-green-500 mr-3"></i>
+                  家人免费筛查
+                </div>
+                <div class="flex items-center">
+                  <i class="fas fa-check text-green-500 mr-3"></i>
+                  专业心理支持
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Policy Section -->
+      <section id="policy" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">免费治疗政策解读</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              深圳市龙岗区肺结核免费治疗政策覆盖所有在深人员，无户籍限制，为患者提供全方位的医疗保障
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="policy-card p-8">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                <i class="fas fa-users text-blue-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-800 mb-4 serif">覆盖对象</h3>
+              <p class="text-slate-600 mb-4">
+                户籍人口、暂住人口以及流动人口均可享受免费治疗政策，无户籍限制。
+                <a href="https://www.szns.gov.cn/main/mssspt/index.html" class="citation-link ml-1" target="_blank">[1]</a>
+              </p>
+              <div class="text-sm text-slate-500">
+                包括在深圳居住或工作的所有疑似或确诊肺结核患者
+              </div>
+            </div>
+
+            <div class="policy-card p-8">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                <i class="fas fa-pills text-green-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-800 mb-4 serif">免费内容</h3>
+              <p class="text-slate-600 mb-4">
+                免费检查和免费药物治疗，包括胸部X光、痰涂片检查和抗结核核心药物。
+                <a href="https://hsa.sz.gov.cn/zwgk/qt/xwdt/content/post_12054252.html" class="citation-link ml-1" target="_blank">[2]</a>
+              </p>
+              <div class="text-sm text-slate-500">
+                规定治疗方案中的抗结核药物全程免费提供
+              </div>
+            </div>
+
+            <div class="policy-card p-8">
+              <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-6">
+                <i class="fas fa-calendar-check text-amber-600 text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-800 mb-4 serif">政策有效期</h3>
+              <p class="text-slate-600 mb-4">
+                龙岗区2025年部门预算中列有结核病防治专项经费，政策持续有效。
+                <a href="https://www.lg.gov.cn/attachment/1/1560/1560860/11996427.pdf" class="citation-link ml-1" target="_blank">[6]</a>
+              </p>
+              <div class="text-sm text-slate-500">
+                至少2025年内免费治疗政策保持不变
+              </div>
+            </div>
+          </div>
+
+          <div class="highlight-box p-8 rounded-2xl">
+            <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">政策依据</h3>
+            <p class="text-slate-700 leading-relaxed mb-4">
+              深圳市人民政府印发的《深圳市可持续发展规划（2017－2030年）（2022年修订）》和《深圳市国家可持续发展议程创新示范区建设方案（2022－2025年）》中，明确将&#34;继续实施结核病和艾滋病等重大疾病防控项目&#34;列为&#34;健康中国&#34;先锋示范行动重点工程之一。
+              <a href="https://wjw.sz.gov.cn/xxgk/ghjh/fzgh/content/post_10653594.html" class="citation-link ml-1" target="_blank">[4]</a>
+            </p>
+            <p class="text-slate-700 leading-relaxed">
+              深圳市政府对结核病等重大传染病的防控工作具有长期的战略规划和持续的投入，体现了对公共卫生事业的高度重视。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Application Process -->
+      <section id="application" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">申请流程与所需材料</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              简化的申请流程，清晰的材料清单，让您快速获得免费治疗服务
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-8 serif">申请步骤</h3>
+              <div class="space-y-8">
+                <div class="process-step">
+                  <div class="step-number">1</div>
+                  <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">确诊与登记</h4>
+                    <p class="text-slate-600">
+                      到指定的结核病定点医疗机构进行确诊和登记。深圳市第三人民医院和各区慢性病防治院均为定点机构。
+                      <a href="https://hsa.sz.gov.cn/zwgk/qt/xwdt/content/post_12054252.html" class="citation-link ml-1" target="_blank">[3]</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="process-step">
+                  <div class="step-number">2</div>
+                  <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">评估确认</h4>
+                    <p class="text-slate-600">
+                      定点医疗机构医生根据国家政策和患者具体情况，评估确认是否符合免费治疗条件。
+                    </p>
+                  </div>
+                </div>
+
+                <div class="process-step">
+                  <div class="step-number">3</div>
+                  <div>
+                    <h4 class="font-semibold text-slate-800 mb-2">开始治疗</h4>
+                    <p class="text-slate-600">
+                      符合条件即可开始免费治疗，无需单独填写复杂申请表格或多部门审批。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-8 serif">所需材料清单</h3>
+              <div class="bg-white p-6 rounded-xl shadow-sm">
+                <div class="space-y-4">
+                  <div class="flex items-start">
+                    <i class="fas fa-id-card text-blue-500 mt-1 mr-3"></i>
+                    <div>
+                      <h5 class="font-medium text-slate-800">有效身份证件</h5>
+                      <p class="text-sm text-slate-600">身份证、户口本等身份证明</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <i class="fas fa-file-medical text-green-500 mt-1 mr-3"></i>
+                    <div>
+                      <h5 class="font-medium text-slate-800">诊断证明及病历</h5>
+                      <p class="text-sm text-slate-600">胸片报告、痰涂片检查结果等相关检查报告</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <i class="fas fa-home text-amber-500 mt-1 mr-3"></i>
+                    <div>
+                      <h5 class="font-medium text-slate-800">居住或工作证明</h5>
+                      <p class="text-sm text-slate-600">非深户患者需提供在深居住证、暂住证或工作证明</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <i class="fas fa-credit-card text-purple-500 mt-1 mr-3"></i>
+                    <div>
+                      <h5 class="font-medium text-slate-800">医保卡（如有）</h5>
+                      <p class="text-sm text-slate-600">广东省城乡居民基本医疗保险（新农合）等</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                <h4 class="font-semibold text-blue-800 mb-2">新农合补充说明</h4>
+                <p class="text-sm text-blue-700">
+                  新农合已将耐药肺结核等20种重大疾病纳入大病保障范围，报销比例不低于70%。
+                  <a href="http://www.xinhuanet.com/politics/2018-11/01/c_1123646541.htm" class="citation-link ml-1" target="_blank">[9]</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 申请流程图 -->
+          <div class="mermaid-container">
+            <div class="mermaid-controls">
+              <button class="mermaid-control-btn zoom-in" title="放大">
+                <i class="fas fa-search-plus"></i>
+              </button>
+              <button class="mermaid-control-btn zoom-out" title="缩小">
+                <i class="fas fa-search-minus"></i>
+              </button>
+              <button class="mermaid-control-btn reset-zoom" title="重置">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </button>
+              <button class="mermaid-control-btn fullscreen" title="全屏查看">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="mermaid">
+              flowchart TD
+              A[&#34;发现疑似症状&#34;] --&gt; B[&#34;前往定点医院就诊&#34;]
+              B --&gt; C[&#34;进行相关检查&#34;]
+              C --&gt; D{&#34;确诊为肺结核?&#34;}
+              D --&gt;|是| E[&#34;准备申请材料&#34;]
+              D --&gt;|否| Z[&#34;结束流程&#34;]
+              E --&gt; F[&#34;提交材料申请&#34;]
+              F --&gt; G[&#34;医生评估确认&#34;]
+              G --&gt; H{&#34;符合免费条件?&#34;}
+              H --&gt;|是| I[&#34;开始免费治疗&#34;]
+              H --&gt;|否| Y[&#34;其他治疗方案&#34;]
+              I --&gt; J[&#34;定期复查随访&#34;]
+              J --&gt; K[&#34;完成治疗疗程&#34;]
+
+              style A fill:#e1f5fe
+              style K fill:#e8f5e8
+              style Z fill:#ffebee
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Family Screening -->
+      <section id="family-screening" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">家人陪同筛查安排</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              与肺结核患者密切接触的家人属于高危人群，深圳市提供免费的筛查服务
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">筛查对象</h3>
+              <div class="bg-slate-50 p-6 rounded-xl">
+                <p class="text-slate-700 mb-4">
+                  肺结核患者的密切接触者，包括但不限于：
+                </p>
+                <ul class="space-y-2 text-slate-600">
+                  <li class="flex items-center">
+                    <i class="fas fa-check text-green-500 mr-3"></i>
+                    与患者同住的家人
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-check text-green-500 mr-3"></i>
+                    经常照顾患者的亲人
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-check text-green-500 mr-3"></i>
+                    5岁以下的儿童密切接触者
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-check text-green-500 mr-3"></i>
+                    免疫力较低的高危人群
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mt-8">
+                <h4 class="text-lg font-semibold text-slate-800 mb-4">免费筛查项目</h4>
+                <div class="space-y-3">
+                  <div class="flex items-center p-3 bg-blue-50 rounded-lg">
+                    <i class="fas fa-microscope text-blue-600 mr-3"></i>
+                    <span class="text-slate-700">淋巴细胞结核免疫检查</span>
+                  </div>
+                  <div class="flex items-center p-3 bg-green-50 rounded-lg">
+                    <i class="fas fa-x-ray text-green-600 mr-3"></i>
+                    <span class="text-slate-700">胸部X光检查</span>
+                  </div>
+                  <div class="flex items-center p-3 bg-amber-50 rounded-lg">
+                    <i class="fas fa-vial text-amber-600 mr-3"></i>
+                    <span class="text-slate-700">痰涂片和痰培养检查</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">筛查地点与时间</h3>
+              <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <div class="mb-6">
+                  <h4 class="font-semibold text-slate-800 mb-2">深圳市第三人民医院</h4>
+                  <p class="text-slate-600 text-sm mb-2">
+                    地址：深圳市龙岗区布吉布澜路29号
+                    <a href="https://cdc.fuzhou.gov.cn/zz/crbkz/jhb/202111/t20211103_4229207.htm" class="citation-link ml-1" target="_blank">[17]</a>
+                  </p>
+                  <p class="text-slate-600 text-sm mb-2">
+                    结核病筛查门诊：每日上午开诊，由专业肺科医生坐诊
+                    <a href="https://m.fx361.cc/news/2017/0417/18455301.html" class="citation-link ml-1" target="_blank">[14]</a>
+                  </p>
+                  <p class="text-slate-600 text-sm">
+                    咨询电话：0755-61238989
+                  </p>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-slate-800 mb-2">龙岗区慢性病防治院</h4>
+                  <p class="text-slate-600 text-sm mb-2">地址：深圳市龙岗区黄阁北路</p>
+                  <p class="text-slate-600 text-sm">电话：0755-28932884
+                    <a href="https://www.gdpc.gov.cn/gdrdw/attachment/0/16/16909/167225.pdf" class="citation-link ml-1" target="_blank">[19]</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-8 p-6 bg-amber-50 rounded-xl">
+                <h4 class="font-semibold text-amber-800 mb-3">筛查注意事项</h4>
+                <ul class="space-y-2 text-sm text-amber-700">
+                  <li class="flex items-start">
+                    <i class="fas fa-clock text-amber-600 mt-0.5 mr-2"></i>
+                    一旦家中有人确诊，密切接触者应尽快进行筛查
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-id-badge text-amber-600 mt-0.5 mr-2"></i>
+                    携带本人有效身份证件和与患者关系证明
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-redo text-amber-600 mt-0.5 mr-2"></i>
+                    持续密切接触者建议每半年复查一次
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Recovery Guidance -->
+      <section id="recovery" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">康复治疗与生活指导</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              针对60岁左右有烟酒史患者的专业康复建议，促进全面康复
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">咯血与住院治疗</h3>
+              <div class="bg-white p-6 rounded-xl shadow-sm">
+                <div class="mb-6">
+                  <h4 class="font-semibold text-red-700 mb-3">紧急处理原则</h4>
+                  <ul class="space-y-2 text-slate-700">
+                    <li class="flex items-start">
+                      <i class="fas fa-bed text-red-500 mt-1 mr-3 text-sm"></i>
+                      <span class="text-sm">绝对卧床休息，保持呼吸道通畅</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-pills text-red-500 mt-1 mr-3 text-sm"></i>
+                      <span class="text-sm">配合医护人员使用止血药物</span>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-exclamation-triangle text-red-500 mt-1 mr-3 text-sm"></i>
+                      <span class="text-sm">咯血时轻轻咯出，避免用力屏气</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-blue-700 mb-3">饮食指导</h4>
+                  <div class="space-y-2">
+                    <p class="text-sm text-slate-600">
+                      <strong>大咯血时：</strong>禁食
+                    </p>
+                    <p class="text-sm text-slate-600">
+                      <strong>咯血停止后：</strong>温凉、易消化的流质或半流质食物
+                    </p>
+                    <p class="text-sm text-slate-600">
+                      <strong>推荐：</strong>米汤、藕粉、牛奶等
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">正规抗结核治疗</h3>
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl">
+                <div class="mb-6">
+                  <h4 class="font-semibold text-indigo-800 mb-4">治疗原则</h4>
+                  <div class="grid grid-cols-2 gap-3">
+                    <div class="text-center p-3 bg-white rounded-lg">
+                      <div class="text-indigo-600 font-bold mb-1">早期</div>
+                      <div class="text-xs text-slate-600">尽早开始治疗</div>
+                    </div>
+                    <div class="text-center p-3 bg-white rounded-lg">
+                      <div class="text-indigo-600 font-bold mb-1">规律</div>
+                      <div class="text-xs text-slate-600">按时按量服药</div>
+                    </div>
+                    <div class="text-center p-3 bg-white rounded-lg">
+                      <div class="text-indigo-600 font-bold mb-1">联合</div>
+                      <div class="text-xs text-slate-600">多种药物联合</div>
+                    </div>
+                    <div class="text-center p-3 bg-white rounded-lg">
+                      <div class="text-indigo-600 font-bold mb-1">全程</div>
+                      <div class="text-xs text-slate-600">完成整个疗程</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-indigo-800 mb-3">治疗周期</h4>
+                  <div class="space-y-2 text-sm">
+                    <div class="flex justify-between">
+                      <span class="text-slate-700">普通肺结核：</span>
+                      <span class="font-semibold text-indigo-600">6-8个月</span>
+                    </div>
+                    <div class="flex justify-between">
+                      <span class="text-slate-700">耐药肺结核：</span>
+                      <span class="font-semibold text-red-600">18-24个月</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid lg:grid-cols-3 gap-8 mb-12">
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-home text-green-600 text-xl"></i>
+              </div>
+              <h4 class="font-semibold text-slate-800 mb-3">居家隔离</h4>
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li>• 与家人分室居住</li>
+                <li>• 经常开窗通风</li>
+                <li>• 咳嗽时掩住口鼻</li>
+                <li>• 避免去人群密集场所</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-utensils text-blue-600 text-xl"></i>
+              </div>
+              <h4 class="font-semibold text-slate-800 mb-3">营养支持</h4>
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li>• 充足热能摄入</li>
+                <li>• 优质蛋白质80-100g/日</li>
+                <li>• 丰富维生素补充</li>
+                <li>• 易消化，少量多餐</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+              <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-ban text-red-600 text-xl"></i>
+              </div>
+              <h4 class="font-semibold text-slate-800 mb-3">戒烟戒酒</h4>
+              <ul class="space-y-2 text-sm text-slate-600">
+                <li>• 严格戒烟</li>
+                <li>• 绝对戒酒</li>
+                <li>• 减轻肝脏负担</li>
+                <li>• 提高治疗效果</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Emotional Support -->
+      <section id="emotional-support" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">情绪支持与心理疏导</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              肺结核是可防可治的疾病，通过专业的心理支持和情绪安抚，帮助患者和家属积极面对
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">对患者的情绪安抚</h3>
+              <div class="space-y-6">
+                <div class="bg-blue-50 p-6 rounded-xl">
+                  <h4 class="font-semibold text-blue-800 mb-3">消除恐惧与误解</h4>
+                  <p class="text-blue-700 text-sm mb-3">
+                    强调肺结核是可防可治的，只要坚持正规治疗，绝大多数患者是可以治愈的。
+                    <a href="http://www.szft.gov.cn/xxgk/cjwt/ylws/content/post_7336338.html" class="citation-link ml-1" target="_blank">[21]</a>
+                  </p>
+                  <p class="text-blue-700 text-sm">
+                    帮助患者正确认识疾病，树立战胜疾病的信心。
+                  </p>
+                </div>
+
+                <div class="bg-green-50 p-6 rounded-xl">
+                  <h4 class="font-semibold text-green-800 mb-3">建立积极心态</h4>
+                  <p class="text-green-700 text-sm mb-3">
+                    多与患者沟通，倾听其内心的担忧和困扰，给予理解和安慰。
+                  </p>
+                  <p class="text-green-700 text-sm">
+                    引导患者培养兴趣爱好，如听音乐、看书、散步等，转移注意力。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">家属的支持角色</h3>
+              <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <div class="space-y-4">
+                  <div class="flex items-start">
+                    <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <i class="fas fa-heart text-purple-600 text-sm"></i>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-slate-800">情感支持</h5>
+                      <p class="text-sm text-slate-600">
+                        理解和包容患者的情绪波动，避免抱怨和指责
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <i class="fas fa-user-md text-blue-600 text-sm"></i>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-slate-800">护理知识</h5>
+                      <p class="text-sm text-slate-600">
+                        学习相关护理知识，协助患者做好居家隔离和个人卫生
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <i class="fas fa-utensils text-green-600 text-sm"></i>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-slate-800">营养保障</h5>
+                      <p class="text-sm text-slate-600">
+                        准备营养丰富、易于消化的食物，保证患者营养需求
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start">
+                    <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                      <i class="fas fa-shield-alt text-amber-600 text-sm"></i>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-slate-800">自我防护</h5>
+                      <p class="text-sm text-slate-600">
+                        家属自身注意防护，定期进行结核病筛查
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-8 rounded-2xl">
+            <h3 class="text-2xl font-semibold text-slate-800 mb-6 serif">专业心理支持途径</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div class="text-center">
+                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-hospital text-indigo-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">医院心理科</h4>
+                <p class="text-sm text-slate-600">大型综合医院心理科或精神科</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-clinic-medical text-purple-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">社区服务中心</h4>
+                <p class="text-sm text-slate-600">社区卫生服务中心心理健康服务</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-comments text-pink-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">心理咨询机构</h4>
+                <p class="text-sm text-slate-600">专业心理咨询机构个体化服务</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-phone text-green-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">心理援助热线</h4>
+                <p class="text-sm text-slate-600">公益心理援助热线免费咨询</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Contact Information -->
+      <section id="contacts" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 serif mb-4">重要联系信息</h2>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+              深圳市龙岗区肺结核防治专业机构联系方式，方便您随时咨询和求助
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white p-8 rounded-xl shadow-sm">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                  <i class="fas fa-hospital text-blue-600 text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-slate-800 serif">深圳市第三人民医院</h3>
+              </div>
+              <p class="text-sm text-slate-600 mb-4">
+                南方科技大学第二附属医院，深圳市结核病防治重要定点医院
+              </p>
+              <div class="space-y-3">
+                <div class="flex items-start">
+                  <i class="fas fa-map-marker-alt text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">地址</div>
+                    <div class="text-sm text-slate-600">
+                      深圳市龙岗区布吉布澜路29号
+                      <a href="https://cdc.fuzhou.gov.cn/zz/crbkz/jhb/202111/t20211103_4229207.htm" class="citation-link ml-1" target="_blank">[17]</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <i class="fas fa-phone text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">咨询电话</div>
+                    <div class="text-sm text-slate-600">0755-61238989（总机）</div>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <i class="fas fa-globe text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">官方网站</div>
+                    <div class="text-sm text-slate-600">www.szsdsrmyy.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                  <i class="fas fa-shield-alt text-green-600 text-xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-slate-800 serif">龙岗区疾控中心</h3>
+              </div>
+              <p class="text-sm text-slate-600 mb-4">
+                龙岗区慢性病防治院，负责辖区结核病防治工作
+              </p>
+              <div class="space-y-3">
+                <div class="flex items-start">
+                  <i class="fas fa-map-marker-alt text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">地址</div>
+                    <div class="text-sm text-slate-600">
+                      深圳市龙岗区黄阁北路
+                      <a href="https://www.gdpc.gov.cn/gdrdw/attachment/0/16/16909/167225.pdf" class="citation-link ml-1" target="_blank">[19]</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <i class="fas fa-phone text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">咨询电话</div>
+                    <div class="text-sm text-slate-600">0755-28932884</div>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <i class="fas fa-info-circle text-slate-400 mt-1 mr-3"></i>
+                  <div>
+                    <div class="text-sm font-medium text-slate-800">服务内容</div>
+                    <div class="text-sm text-slate-600">政策解读、申请指导、家人筛查</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-sm">
+            <h3 class="text-xl font-semibold text-slate-800 mb-6 serif">其他咨询渠道</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div class="text-center">
+                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-building text-purple-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">市卫健委</h4>
+                <p class="text-sm text-slate-600">wjw.sz.gov.cn</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-credit-card text-indigo-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">市医保局</h4>
+                <p class="text-sm text-slate-600">hsa.sz.gov.cn</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-clinic-medical text-green-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">社康中心</h4>
+                <p class="text-sm text-slate-600">居住地附近社康</p>
+              </div>
+
+              <div class="text-center">
+                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <i class="fas fa-phone-alt text-amber-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-slate-800 mb-2">政府热线</h4>
+                <p class="text-sm text-slate-600">12345</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-slate-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-8 text-center">
+          <div class="mb-6">
+            <h3 class="text-xl font-semibold serif mb-2">深圳龙岗区肺结核免费治疗指南</h3>
+            <p class="text-slate-300">专业、可信、全面的政策解读与申请指导</p>
+          </div>
+          <div class="border-t border-slate-700 pt-6">
+            <p class="text-sm text-slate-400">
+              本指南基于2025年最新政策文件编制，确保信息准确性和时效性
+            </p>
+            <p class="text-sm text-slate-400 mt-2">
+              如有疑问，请及时联系相关医疗机构或政府部门
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+        // Initialize Mermaid with custom configuration
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#ffffff',
+                primaryTextColor: '#1f2937',
+                primaryBorderColor: '#2563eb',
+                lineColor: '#64748b',
+                secondaryColor: '#f8fafc',
+                tertiaryColor: '#ffffff'
+            },
+            flowchart: {
+                useMaxWidth: false,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+
+        // Initialize Mermaid Controls for zoom and pan
+        function initializeMermaidControls() {
+            const containers = document.querySelectorAll('.mermaid-container');
+
+            containers.forEach(container => {
+            const mermaidElement = container.querySelector('.mermaid');
+            let scale = 1;
+            let isDragging = false;
+            let startX, startY, translateX = 0, translateY = 0;
+
+            // 触摸相关状态
+            let isTouch = false;
+            let touchStartTime = 0;
+            let initialDistance = 0;
+            let initialScale = 1;
+            let isPinching = false;
+
+            // Zoom controls
+            const zoomInBtn = container.querySelector('.zoom-in');
+            const zoomOutBtn = container.querySelector('.zoom-out');
+            const resetBtn = container.querySelector('.reset-zoom');
+            const fullscreenBtn = container.querySelector('.fullscreen');
+
+            function updateTransform() {
+                mermaidElement.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+
+                if (scale > 1) {
+                container.classList.add('zoomed');
+                } else {
+                container.classList.remove('zoomed');
+                }
+
+                mermaidElement.style.cursor = isDragging ? 'grabbing' : 'grab';
+            }
+
+            if (zoomInBtn) {
+                zoomInBtn.addEventListener('click', () => {
+                scale = Math.min(scale * 1.25, 4);
+                updateTransform();
+                });
+            }
+
+            if (zoomOutBtn) {
+                zoomOutBtn.addEventListener('click', () => {
+                scale = Math.max(scale / 1.25, 0.3);
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+                updateTransform();
+                });
+            }
+
+            if (resetBtn) {
+                resetBtn.addEventListener('click', () => {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+                });
+            }
+
+            if (fullscreenBtn) {
+                fullscreenBtn.addEventListener('click', () => {
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                } else if (container.msRequestFullscreen) {
+                    container.msRequestFullscreen();
+                }
+                });
+            }
+
+            // Mouse Events
+            mermaidElement.addEventListener('mousedown', (e) => {
+                if (isTouch) return; // 如果是触摸设备，忽略鼠标事件
+
+                isDragging = true;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                mermaidElement.style.cursor = 'grabbing';
+                updateTransform();
+                e.preventDefault();
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging && !isTouch) {
+                translateX = e.clientX - startX;
+                translateY = e.clientY - startY;
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseleave', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            // 获取两点之间的距离
+            function getTouchDistance(touch1, touch2) {
+                return Math.hypot(
+                touch2.clientX - touch1.clientX,
+                touch2.clientY - touch1.clientY
+                );
+            }
+
+            // Touch Events - 触摸事件处理
+            mermaidElement.addEventListener('touchstart', (e) => {
+                isTouch = true;
+                touchStartTime = Date.now();
+
+                if (e.touches.length === 1) {
+                // 单指拖动
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+
+                } else if (e.touches.length === 2) {
+                // 双指缩放
+                isPinching = true;
+                isDragging = false;
+
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                initialDistance = getTouchDistance(touch1, touch2);
+                initialScale = scale;
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchmove', (e) => {
+                if (e.touches.length === 1 && isDragging && !isPinching) {
+                // 单指拖动
+                const touch = e.touches[0];
+                translateX = touch.clientX - startX;
+                translateY = touch.clientY - startY;
+                updateTransform();
+
+                } else if (e.touches.length === 2 && isPinching) {
+                // 双指缩放
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                const currentDistance = getTouchDistance(touch1, touch2);
+
+                if (initialDistance > 0) {
+                    const newScale = Math.min(Math.max(
+                    initialScale * (currentDistance / initialDistance),
+                    0.3
+                    ), 4);
+                    scale = newScale;
+                    updateTransform();
+                }
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchend', (e) => {
+                // 重置状态
+                if (e.touches.length === 0) {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                // 延迟重置isTouch，避免鼠标事件立即触发
+                setTimeout(() => {
+                    isTouch = false;
+                }, 100);
+                } else if (e.touches.length === 1 && isPinching) {
+                // 从双指变为单指，切换为拖动模式
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+                }
+
+                updateTransform();
+            });
+
+            mermaidElement.addEventListener('touchcancel', (e) => {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                setTimeout(() => {
+                isTouch = false;
+                }, 100);
+
+                updateTransform();
+            });
+
+            // Enhanced wheel zoom with better center point handling
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const rect = container.getBoundingClientRect();
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                const newScale = Math.min(Math.max(scale * delta, 0.3), 4);
+
+                // Adjust translation to zoom towards center
+                if (newScale !== scale) {
+                const scaleDiff = newScale / scale;
+                translateX = translateX * scaleDiff;
+                translateY = translateY * scaleDiff;
+                scale = newScale;
+
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+
+                updateTransform();
+                }
+            });
+
+            // Initialize display
+            updateTransform();
+            });
+        }
+
+        // Toggle TOC on mobile
+        function toggleToc() {
+            const toc = document.getElementById('tableOfContents');
+            toc.classList.toggle('open');
+        }
+
+        // Close TOC when clicking outside
+        document.addEventListener('click', function(event) {
+            const toc = document.getElementById('tableOfContents');
+            const menuButton = document.querySelector('button[onclick="toggleToc()"]');
+            
+            // Check if click is outside TOC and menu button
+            if (toc.classList.contains('open') && 
+                !toc.contains(event.target) && 
+                event.target !== menuButton && 
+                !menuButton.contains(event.target)) {
+                toc.classList.remove('open');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close TOC on mobile after clicking
+                    if (window.innerWidth <= 1024) {
+                        document.getElementById('tableOfContents').classList.remove('open');
+                    }
+                }
+            });
+        });
+
+        // Scroll progress indicator
+        function updateScrollProgress() {
+            const scrollTop = window.pageYOffset;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.getElementById('scrollProgress').style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateScrollProgress);
+
+        // Active section highlighting in TOC
+        function updateActiveSection() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.toc-fixed a[href^="#"]');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('bg-blue-100', 'text-blue-700');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('bg-blue-100', 'text-blue-700');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveSection);
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            updateScrollProgress();
+            updateActiveSection();
+            // Initialize Mermaid controls after DOM is loaded
+            setTimeout(() => {
+                initializeMermaidControls();
+            }, 1000);
+        });
+    </script>
+  
+
+</body></html>
